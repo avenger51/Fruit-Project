@@ -1,0 +1,78 @@
+{
+
+}
+
+:focus {
+
+}
+
+body {
+
+/*align-content: center;*/
+background-image: linear-gradient(to right, orange, yellow);
+}
+
+input {
+
+width: 300px;
+}
+
+.search-container {
+
+ display: grid;
+ place-items: center;
+ height: 100%;
+ margin-top: 30%;
+}
+.search-container input,
+.search-container .suggestions {
+ 
+
+  
+}
+.search-container input {
+ /* This is the actual box */
+}
+.search-container .suggestions {
+   /* this is the box under the input...*/
+    list-style-type: none;  
+}
+
+ul {
+
+  /* width: 300px; removed this and the hover box over the li fits in the drop down width*/ 
+  list-style-type: none;  /* removed */
+  
+}
+ul.has-suggestions {
+
+}
+
+.suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+ width: 300px;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+ul li {
+
+}
+ul li:hover {
+
+  background-color: rgba(255, 255, 255, 0.5);
+  
+}
+
+input {
+
+}
+
+
+/* <div class="suggestions">
+		<ul></ul>
+	</div>
+  This is where that box is below the input box....
